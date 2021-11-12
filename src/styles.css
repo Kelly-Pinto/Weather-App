@@ -1,0 +1,85 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 0;
+  color: rgb (52, 101, 103);
+  opacity: 0.8;
+}
+.weather-app {
+  border: 1px solid #d6d2d7;
+  border-radius: 5px;
+  margin-top: 20px;
+  max-width: 700px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.current-weather {
+  margin-top: 20px;
+  border: none;
+}
+.current-day-time {
+  font-family: "Quicksand", sans-serif;
+  opacity: 0.9;
+}
+.current-condition-icon {
+  font-size: 70px;
+  color: #add2c9;
+  padding-bottom: 5px;
+}
+.current-temp {
+  font-family: "Quicksand", sans-serif;
+  display: inline;
+  font-size: 40px;
+  opacity: 0.9;
+}
+.current-conditions {
+  opacity: 0.9;
+  line-height: 1;
+}
+.search {
+  border: none;
+  margin-top: 130px;
+}
+
+.forecast-card {
+  border: none;
+}
+.card-title {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  color: rgb (52, 101, 103);
+  opacity: 0.9;
+}
+.card-subtitle {
+  font-family: "Quicksand", sans-serif;
+}
+.forecast-icon {
+  font-size: 32px;
+  color: #add2c9;
+  padding-bottom: 8px;
+}
+#search-field {
+  display: inline;
+  max-width: 200px;
+}
+#search-button {
+  display: inline;
+  position: relative;
+  top: -2px;
+  background-color: #5ea3a3;
+  border: none;
+}
+#celsius-link,
+#fahrenheit-link {
+  text-decoration: none;
+}
+#temp-links {
+  font-size: 15px;
+}
+
+#current-location-button {
+  display: inline;
+  position: relative;
+  top: -2px;
+  background-color: #5ea3a3;
+  border: none;
+}
